@@ -10,7 +10,7 @@ const HeaderPreview = () => {
       </h1>
       <p className="gray-text p-tag">Web Developer</p>
       <Link className="pink-text" to="/portfolio">
-        Check my work
+        Check my works
       </Link>
     </article>
   );
