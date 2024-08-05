@@ -1,6 +1,6 @@
 import { IoIosMail } from 'react-icons/io';
 import { motion } from 'framer-motion';
-import MyImg from '../../assets/Images/MyImg.jpg'
+import MyImg from '../../assets/Images/MyImg.jpeg'
 
 const About = () => {
     return (
