@@ -71,7 +71,7 @@ const Home = () => {
                         }}
                     >
                         <h1 className="text-2xl font-semibold font-sans">HEY I'M</h1>
-                        <h2 className="text-5xl mb-7 font-extrabold">Diljith Krishna S</h2>
+                        <h2 className="text-5xl mb-7 font-extrabold">Diljith Krishna</h2>
                         <p className="mt-4 text-sm max-w-4xl font-medium font-sans text-[#aaaaaa]">
                             Passionate MERN Stack Developer driven by a relentless pursuit of crafting high-quality, scalable
                             web solutions. With an innate curiosity and over 1.6 years of hands-on experience, I thrive in
