@@ -1,4 +1,4 @@
-@media (max-width: 768px) { /* Target mobile devices */
+@media (max-width: 768px) { 
     @media screen and (orientation: landscape) {
       body {
         overflow: hidden;

@@ -16,6 +16,15 @@ const Home = () => {
             threshold: 0.1,
         });
 
+        window.addEventListener('orientationchange', function () {
+            if (window.orientation === 90 || window.orientation === -90) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+
         useEffect(() => {
             if (inView) {
                 controls.start('visible');
