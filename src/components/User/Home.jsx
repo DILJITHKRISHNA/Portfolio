@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import About from './About';
@@ -6,7 +6,7 @@ import Projects from './Projects';
 import Education from './Education';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
-import './Home.css'
+import './Home.css';
 
 const Home = () => {
     const useScrollAnimation = () => {
@@ -15,15 +15,6 @@ const Home = () => {
             triggerOnce: true,
             threshold: 0.1,
         });
-
-        window.addEventListener('orientationchange', function () {
-            if (window.orientation === 90 || window.orientation === -90) {
-                document.body.style.overflow = 'hidden';
-            } else {
-                document.body.style.overflow = 'auto';
-            }
-        });
-
 
         useEffect(() => {
             if (inView) {
@@ -46,7 +37,6 @@ const Home = () => {
     };
 
     return (
-
         <div className='bg-black max-w-screen'>
             <motion.div
                 initial="hidden"
