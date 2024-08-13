@@ -1,14 +1,12 @@
-@media (max-width: 640px) {
-    body {
-        overflow: hidden;
-        /* Prevents scrolling */
-        position: fixed;
-        /* Fixes the position */
-        width: 100vw;
-        /* Ensures full width */
-        height: 100vh;
-        /* Ensures full height */
-        transform: rotate(0deg);
-        /* Ensures no rotation */
-    }
-}
+:root {
+    --orientation-lock: auto;
+  }
+  
+  body {
+    overflow: hidden;
+    position: var(--orientation-lock);
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(0deg);
+  }
+  

@@ -6,9 +6,11 @@ import Projects from './Projects';
 import Education from './Education';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
-import './Home.css';
-
+import HomeScroll from './HomeScroll.js';
+import './Home.css'
 const Home = () => {
+
+    HomeScroll()
     const useScrollAnimation = () => {
         const controls = useAnimation();
         const [ref, inView] = useInView({
