@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import About from './About';
@@ -6,7 +6,7 @@ import Projects from './Projects';
 import Education from './Education';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
-
+import './Home.css'
 const Home = () => {
     // Custom hook to create scroll-based animation
     const useScrollAnimation = () => {
@@ -37,6 +37,7 @@ const Home = () => {
     };
 
     return (
+
         <div className='bg-black max-w-screen'>
             <motion.div
                 initial="hidden"

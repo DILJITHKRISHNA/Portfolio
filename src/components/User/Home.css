@@ -1,0 +1,13 @@
+/* Prevent rotation only on mobile devices in landscape mode */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    body {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
