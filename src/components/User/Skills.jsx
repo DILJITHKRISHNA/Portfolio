@@ -4,8 +4,7 @@ import {
     SiNodedotjs, SiRedux, SiTypescript, SiTailwindcss, SiGithub,
     SiPostgresql, SiFigma, SiHtml5
 } from 'react-icons/si';
-import { FaAws, FaCss3 } from "react-icons/fa";
-import { motion } from 'framer-motion'; // Install framer-motion for animations
+import { motion } from 'framer-motion'; 
 
 const skillsData = [
     { icon: <SiJavascript className="text-6xl transition-transform duration-500 transform hover:scale-105 hover:text-[#34d399]" />, name: 'JavaScript' },

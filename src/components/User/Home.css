@@ -1,13 +1,18 @@
-/* Prevent rotation only on mobile devices in landscape mode */
-@media only screen and (max-width: 767px) and (orientation: landscape) {
-    body {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        height: 100vw;
+@media (max-width: 768px) { /* Target mobile devices */
+    @media screen and (orientation: landscape) {
+      body {
         overflow: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
     }
-}
+  }
+  
+  @media screen and (orientation: portrait) {
+    body {
+      overflow: auto;
+    }
+  }
+  

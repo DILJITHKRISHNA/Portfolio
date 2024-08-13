@@ -7,8 +7,8 @@ import Education from './Education';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
 import './Home.css'
+
 const Home = () => {
-    // Custom hook to create scroll-based animation
     const useScrollAnimation = () => {
         const controls = useAnimation();
         const [ref, inView] = useInView({
@@ -16,7 +16,7 @@ const Home = () => {
             threshold: 0.1,
         });
 
-        React.useEffect(() => {
+        useEffect(() => {
             if (inView) {
                 controls.start('visible');
             }
