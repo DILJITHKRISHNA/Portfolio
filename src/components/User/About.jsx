@@ -4,7 +4,7 @@ import MyImg from '../../assets/Images/MyImg.jpg'
 
 const About = () => {
     return (
-        <div className="flex flex-col sm:flex-row sm:gap-0 gap-10 mt-2 items-center sm:items-start">
+        <div className="flex flex-col sm:flex-row sm:gap-0 gap-10 mt-2 items-center sm:items-start p-12">
             <motion.img
                 src={MyImg}
                 alt="Image"
