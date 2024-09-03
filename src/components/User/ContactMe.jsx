@@ -5,7 +5,7 @@ const ContactMe = () => {
         <div className='contactMe-side p-4 sm:p-8'>
             <div className='flex justify-end items-center flex-row gap-2 mt-12'>
             <h1 className="text-[#aaaaaa] font-mono text-2xl">CONTACT ME</h1>
-            <div className='border-b-2 border-green-400 w-40 sm:w-64'></div>
+            <div className='border-b-2 border-[#34d399] w-40 sm:w-64'></div>
             </div>
             <div className='mt-14 flex flex-col justify-center items-center gap-5 text-center'>
                 <h1 className='text-4xl sm:text-5xl font-bold'>Contact <span className='text-[#34d399]'>Me <span className='hidden sm:inline'>Here</span></span></h1>
